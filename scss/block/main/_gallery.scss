@@ -1,0 +1,24 @@
+.gallety {
+	padding-top: 60px;
+	margin-bottom: 60px;
+	.title {
+		margin-bottom: 40px;
+	}
+}
+.gallery__content {
+	display: grid;
+	gap: 20px;
+	grid-template-columns: repeat(4, 390px);
+	grid-template-rows: repeat(2, 335.5px);
+	grid-template-areas: 
+	"sale1 sale1 sale2 sale3"
+	"sale1 sale1 sale4 sale4";
+}
+.img-card {
+	overflow: hidden;
+	border-radius: 65px;
+}
+.sale-1 {grid-area: sale1;}
+.sale-2 {grid-area: sale2;}
+.sale-3 {grid-area: sale3;}
+.sale-4 {grid-area: sale4;}
